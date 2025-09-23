@@ -1,0 +1,62 @@
+### Diretórios e arquivos comuns a ambos os projetos
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.cache/
+temp/
+
+---
+
+### Regras para o Projeto Java (Backend)
+# Build
+/target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.class
+
+# Ferramentas de Build
+.gradle/
+build/
+!/build/generated/
+
+# Maven
+pom.xml.tag
+pom.xml.versions
+pom.xml.backup
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+---
+
+### Regras para o Projeto Angular (Frontend)
+# Dependências do Node
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Build e arquivos gerados pelo Angular CLI
+/dist/
+/out-tsc/
+.angular/
+.angular-cli.json
+.ngcli.json
+
+# Testes
+/coverage/
+
+# Arquivos de ambiente com informações sensíveis
+src/environments/environment.prod.ts
+src/environments/environment.ts
