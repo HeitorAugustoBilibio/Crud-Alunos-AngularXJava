@@ -41,7 +41,7 @@ dependency-reduced-pom.xml
 
 ### Regras para o Projeto Angular (Frontend)
 # Dependências do Node
-/node_modules/
+/AlunosFront/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
